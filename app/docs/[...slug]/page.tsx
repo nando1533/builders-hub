@@ -27,6 +27,7 @@ import { File, Folder, Files } from 'fumadocs-ui/components/files';
 import Mermaid from "@/components/content-design/mermaid";
 import type { MDXComponents } from 'mdx/types';
 import YouTube from '@/components/content-design/youtube';
+import { GlossaryTerm } from "@/components/ui/glossary-term";
 import { Feedback } from '@/components/ui/feedback';
 import posthog from 'posthog-js';
 
@@ -74,6 +75,7 @@ export default async function Page(props: {
             Step,
             Steps,
             YouTube,
+            GlossaryTerm,
             Mermaid,
             TypeTable,
             AutoTypeTable,
